@@ -2,6 +2,7 @@ let qrcode = select("img");
 let qrtext = select("textarea");
 let generateBtn = select("button");
 let downloadBtn = select("a");
+let toast = select("#toast");
 
 generateBtn.addEventListener("click", generateQR);
 
@@ -19,4 +20,11 @@ function generateQR() {
 
 function select(el) {
   return document.querySelector(el);
+}
+
+function toastDiv() {
+  toast.className = "show";
+  setTimeout( function() {
+      toast.className = toast.className.replace("show" , "");
+  },2000);
 }

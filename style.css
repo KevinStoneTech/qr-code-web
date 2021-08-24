@@ -12,7 +12,7 @@ body {
   height: 100%;
 }
 body {
-  background: #fff;
+  background: rgb(37, 36, 36);
   display: grid;
   justify-content: center;
   align-items: center;

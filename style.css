@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial;
+  font-family: Quicksand;
 }
 html,
 body {
@@ -12,8 +12,8 @@ body {
   height: 100%;
 }
 body {
-  background: rgb(37, 36, 36);
-  display: grid;
+  background:linear-gradient(to right top,#f86b6b,#338ff1);
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -23,13 +23,21 @@ body {
   grid-template-columns: 1fr auto;
   grid-row-gap: 10px;
   overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 25px -10px rgba(0,0,0,0.5);
+  border-radius: 0.5rem;
+  padding: 50px 30px;
+}
+
+.qrbox textarea:focus {
+  border: 3px solid #07f49e;
 }
 
 img {
   height: 300px;
   width: 300px;
   padding: 1rem;
-  border: 2px solid #006eff;
+  border: 3px solid #006eff;
   border-radius: 0.5rem;
   grid-column: 1 / -1;
 }
@@ -38,29 +46,32 @@ textarea {
   outline: none;
   height: 100px;
   padding: 1rem;
-  border: 2px solid #4456ff;
+  border: 3px solid #006eff;
   border-radius: 0.5rem;
   grid-column: 1 / -1;
 }
 
 button {
-  font-size: 1rem;
-  color: #000000;
+  font-size: 1.2rem;
+  color: #fff;
   text-decoration: none;
   border: none;
   outline: none;
-  background-color: #5b58ff;
-  padding: 0.5rem 1rem;
-  border-radius: 2rem;
-  transition: background-color 0.2s;
+  background-color: #006eff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
 }
+
 button:hover {
-  background-color: #00c1fc;
+  background-color: #07f49e;
+  box-shadow: 0 10px 25px -10px rgba(0,0,0,0.7);
 }
 
 #toast {
   position: absolute;
   bottom: 0;
+  color: #fff;
   border-radius: 5px;
   padding: 15px 50px;
   background: #07f49e;

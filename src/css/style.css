@@ -85,3 +85,22 @@ button:hover {
   opacity: 1;
   bottom: 50px;
 }
+
+#download {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 15px 50px;
+  background: #07f49e;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 10px 25px -10px #000000;
+  transition: 0.3s;
+}
+
+#download.showA {
+  visibility: visible;
+  opacity: 1;
+  bottom: 50px;
+}

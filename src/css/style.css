@@ -60,7 +60,7 @@ button {
   background-color: #006eff;
   padding: 0.7rem 1rem;
   border-radius: 0.5rem;
-  transition: background-color 0.3s;
+  transition: background-color 0.4s;
 }
 
 button:hover {
@@ -72,12 +72,12 @@ button:hover {
   position: absolute;
   bottom: 0;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   padding: 15px 50px;
   background: #07f49e;
   opacity: 0;
   visibility: hidden;
-  box-shadow: 0 10px 25px -10px #07f49e;
+  box-shadow: 0 10px 25px -10px #000000;
   transition: 0.3s;
 }
 #toast.show {

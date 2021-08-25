@@ -1,4 +1,4 @@
-# Gerador de Qr Code
+# Gerador de Qr Code (Texto)
 
 ## Em construção.
 
@@ -11,3 +11,10 @@
 ### 2 - Template v1. (Gerando QR)
 
 <img src="src/img/24_08_2021 23_02_01.png">
+
+### 3 - Template v1. (Inclusão do Btn Download)
+
+#### Obs.: O Botão "Download" só mostrado ao clicar em *Gerar qr code*.
+
+<img src="src/img/25_08_2021 18_27_44.png">
+

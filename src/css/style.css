@@ -51,20 +51,25 @@ textarea {
   grid-column: 1 / -1;
 }
 
+/* textarea:required {
+  border: 1px dashed red;
+} */
+
 button {
   font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
   border: none;
   outline: none;
-  background-color: #006eff;
+  background-color: #3e8ff8;
   padding: 0.7rem 1rem;
   border-radius: 0.5rem;
   transition: background-color 0.4s;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: #07f49e;
+  background-color: #006eff;
   box-shadow: 0 10px 25px -10px rgba(0,0,0,0.7);
 }
 
@@ -86,6 +91,10 @@ button:hover {
   bottom: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #download {
   font-size: 1.2rem;
   color: #fff;
@@ -97,7 +106,7 @@ button:hover {
   border-radius: 0.5rem;
   transition: background-color 0.4s;
   visibility: hidden;
-  align-items: center;
+  text-align: center;
 }
 
 #download:hover {

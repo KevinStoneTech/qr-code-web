@@ -18,7 +18,7 @@ function generateQR() {
   qrcode.src = url;
   toastDiv();
   downloadBtn.href = url;
-  qrtext.value = "";
+  qrtext.value = qrtext.value; // Definido para retornar o texto digitado dentro do textarea
   downloadA();
 }
 

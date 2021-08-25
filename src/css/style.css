@@ -87,20 +87,25 @@ button:hover {
 }
 
 #download {
-  position: absolute;
-  bottom: 0;
+  font-size: 1.2rem;
   color: #fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: #d8684c;
+  padding: 0.7rem 1rem;
   border-radius: 0.5rem;
-  padding: 15px 50px;
-  background: #07f49e;
-  opacity: 0;
+  transition: background-color 0.4s;
   visibility: hidden;
-  box-shadow: 0 10px 25px -10px #000000;
-  transition: 0.3s;
+  align-items: center;
+}
+
+#download:hover {
+  background-color: #ce4141;
+  box-shadow: 0 10px 25px -10px rgba(0,0,0,0.7);
 }
 
 #download.showA {
   visibility: visible;
   opacity: 1;
-  bottom: 50px;
 }

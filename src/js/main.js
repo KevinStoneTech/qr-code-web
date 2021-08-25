@@ -1,6 +1,6 @@
 let qrcode = select("img");
 let qrtext = select("textarea");
-let generateBtn = select("button");
+let generateBtn = select(".btn");
 let downloadBtn = select("a");
 var toast = document.querySelector('#toast');
 var download = document.querySelector('#download');
@@ -18,9 +18,8 @@ function generateQR() {
   qrcode.src = url;
   toastDiv();
   downloadBtn.href = url;
-  downloadA();
   qrtext.value = "";
-  
+  downloadA();
 }
 
 function toastDiv() {
@@ -32,9 +31,6 @@ function toastDiv() {
 
 function downloadA() {
   download.className = "showA";
-  setTimeout( function() {
-      download.className = download.className.replace("showA" , "");
-  },20020);
 }
 
 

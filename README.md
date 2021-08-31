@@ -2,7 +2,7 @@
 
 ## Em construção.
 
-### Autor: @KevinStoneTech
+### Por https://github.com/KevinStoneTech
 
 ### 1 - Template v1. (Gerador aberto)
 

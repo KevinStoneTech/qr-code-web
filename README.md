@@ -2,6 +2,8 @@
 
 ## Em construção.
 
+### Link para site - https://kevinstonetech.github.io/qr-code-web
+
 ### Por https://github.com/KevinStoneTech
 
 ### 1 - Template v1. (Gerador aberto)

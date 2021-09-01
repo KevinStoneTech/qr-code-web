@@ -4,8 +4,6 @@
 
 ### Link para site - https://kevinstonetech.github.io/qr-code-web
 
-### Por https://github.com/KevinStoneTech
-
 ### 1 - Template v1. (Gerador aberto)
 
 <img src="src/img/24_08_2021 22_56_52.png">

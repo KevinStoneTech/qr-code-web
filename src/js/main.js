@@ -10,7 +10,7 @@ generateBtn.addEventListener("click", generateQR);
 
 function generateQR() {
   let size = "512x512";
-  let data = qrtext.value.replace(/\n/g, '%0A'); // Serve para quebrar linha no textarea - replace(/\n/g, '<br>')
+  let data = qrtext.value.replace(/\n/g, '%0A'); // Serve para quebrar linha no textarea - replace(/\n/g, '<br>');
   let baseURL = "http://api.qrserver.com/v1/create-qr-code/";
 
   let url = `${baseURL}?data=${data}&size=${size}`;
